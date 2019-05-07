@@ -11,10 +11,17 @@ header i{
 	font-size: 18px;
 	width: 40px;
 	font-family: Open Sans;
-	padding-top: 0%;
-	margin-right: 30px;
+	margin-right: 50px;
+	
 	
 }
+
+
+.logo {
+	position: relative;
+	bottom: 10px;
+}
+
 
 
 .btn-header{
@@ -22,9 +29,16 @@ header i{
 	background-color: #ff4514;
 	margin-left: 50%;
 	border-radius: 50px;
-	margin-bottom: 10px;
+	
+	
 
 	
+}
+
+#lista{
+	position: relative;
+	bottom: 40px;
+	right:180px;
 }
 
 #home{
@@ -218,6 +232,7 @@ padding: 5%;
 #register{
 	color: #FFFFFF;
 	text-align: center;
+	padding:3%;
 }
 
 .form-group{
