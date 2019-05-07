@@ -16,16 +16,14 @@ header i{
 	
 }
 
-header{
-	background-color: transparent;
-}
 
 .btn-header{
 	align-content: left;
 	background-color: #ff4514;
 	margin-left: 50%;
 	border-radius: 50px;
-	margin-top: 30%
+	margin-bottom: 10px;
+
 	
 }
 
@@ -264,7 +262,7 @@ footer img{
     z-index: 99;
 }
 .header-area.sticky {
-	background-color: #1F1A21;
+	background-color: #1F1A21 !important;
 }
 
 .header-area.sticky .nav-link {
@@ -278,12 +276,13 @@ footer img{
 
 
 .header-area.sticky .nav-link:hover::after {
-	background-color: #2c3142;
+	background-color: #1F1A21;
 }
 
 
 .header-area.sticky .nav-link:hover{
 	color:#2c3142;
+	
 }
 
 .header-area.sticky .active .nav-link:hover{
@@ -297,3 +296,4 @@ footer img{
 .header-area.sticky .navbar-brand .d-none{
 	display: block !important;
 }
+
